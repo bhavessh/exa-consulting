@@ -1,0 +1,118 @@
+export const blogPosts = [
+  {
+    id: "1",
+    slug: "cloud-migration-strategy-2024",
+    title: "The Enterprise Cloud Migration Playbook for 2024",
+    excerpt:
+      "A comprehensive framework for planning and executing zero-downtime cloud migrations for organizations with complex legacy infrastructure.",
+    content: "Full article content here...",
+    author: {
+      name: "Dr. Aisha Patel",
+      role: "Chief Technology Officer",
+      avatar: "/images/team/aisha.jpg",
+    },
+    category: "Cloud Architecture",
+    tags: ["Cloud", "AWS", "Migration", "Strategy"],
+    readTime: "12 min",
+    publishedAt: "2024-07-15",
+    featured: true,
+    image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&q=80",
+  },
+  {
+    id: "2",
+    slug: "zero-trust-security-enterprise",
+    title: "Implementing Zero-Trust Architecture in Enterprise Environments",
+    excerpt:
+      "How to move beyond the traditional perimeter security model and build a robust zero-trust framework that scales with your organization.",
+    content: "Full article content here...",
+    author: {
+      name: "Marcus Chen",
+      role: "Head of Cybersecurity",
+      avatar: "/images/team/marcus.jpg",
+    },
+    category: "Cybersecurity",
+    tags: ["Security", "Zero-Trust", "Enterprise", "NIST"],
+    readTime: "9 min",
+    publishedAt: "2024-07-02",
+    featured: false,
+    image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800&q=80",
+  },
+  {
+    id: "3",
+    slug: "llm-enterprise-integration",
+    title: "LLM Integration Patterns for Enterprise Applications",
+    excerpt:
+      "Practical architectural patterns for integrating large language models into production enterprise systems with reliability and cost efficiency.",
+    content: "Full article content here...",
+    author: {
+      name: "Sofia Ramirez",
+      role: "AI/ML Practice Lead",
+      avatar: "/images/team/sofia.jpg",
+    },
+    category: "AI & Machine Learning",
+    tags: ["LLM", "AI", "Architecture", "Production"],
+    readTime: "15 min",
+    publishedAt: "2024-06-18",
+    featured: true,
+    image: "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=800&q=80",
+  },
+  {
+    id: "4",
+    slug: "microservices-vs-monolith",
+    title: "Microservices vs. Modular Monolith: Choosing the Right Architecture",
+    excerpt:
+      "A data-driven analysis of when microservices architecture genuinely adds value versus when a well-structured monolith is the superior choice.",
+    content: "Full article content here...",
+    author: {
+      name: "James Okafor",
+      role: "Principal Software Architect",
+      avatar: "/images/team/james.jpg",
+    },
+    category: "Software Engineering",
+    tags: ["Architecture", "Microservices", "Engineering", "Scalability"],
+    readTime: "11 min",
+    publishedAt: "2024-06-05",
+    featured: false,
+    image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&q=80",
+  },
+  {
+    id: "5",
+    slug: "data-mesh-enterprise",
+    title: "Data Mesh: Decentralizing Your Enterprise Data Strategy",
+    excerpt:
+      "How domain-driven data ownership is transforming how enterprises think about data architecture, governance, and analytics at scale.",
+    content: "Full article content here...",
+    author: {
+      name: "Dr. Aisha Patel",
+      role: "Chief Technology Officer",
+      avatar: "/images/team/aisha.jpg",
+    },
+    category: "Data & Analytics",
+    tags: ["Data Mesh", "Analytics", "Governance", "Strategy"],
+    readTime: "13 min",
+    publishedAt: "2024-05-20",
+    featured: false,
+    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80",
+  },
+  {
+    id: "6",
+    slug: "devops-transformation-culture",
+    title: "The Human Side of DevOps Transformation",
+    excerpt:
+      "Technology is rarely the obstacle in DevOps adoption. Here's how to navigate the cultural and organizational challenges that determine success.",
+    content: "Full article content here...",
+    author: {
+      name: "James Okafor",
+      role: "Principal Software Architect",
+      avatar: "/images/team/james.jpg",
+    },
+    category: "Digital Transformation",
+    tags: ["DevOps", "Culture", "Transformation", "Leadership"],
+    readTime: "8 min",
+    publishedAt: "2024-05-08",
+    featured: false,
+    image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&q=80",
+  },
+];
+
+export type BlogPost = (typeof blogPosts)[number];
